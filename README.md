@@ -1,2 +1,1 @@
-# ts-api
-Minimal Express.js/Typescript API
+Simple Express.js/TypeScript Api for Stairoid app
