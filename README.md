@@ -8,7 +8,7 @@
 ## Getting started
 Before starting the API locally make sure you have:
 - [Node.js](https://nodejs.org) installed
-- Have mongoDB running locally (You can also provision mongoDB instance as a servie and the URI to connect to it, see next section)
+- Have mongoDB running locally (You can also provision mongoDB instance as a service and the URI to connect to it, see next section)
 
 Install dependencies:
 ```
