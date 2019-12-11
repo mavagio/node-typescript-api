@@ -1,12 +1,9 @@
-import {API_PATH} from '../../config';
 import LogsHandler from './Logs.Handler';
+import * as express from 'express';
 
-const PATH = 'logs'
-const FULL_PATH =`/${API_PATH}/${PATH}/`;
+const LogsRouter = express.Router();
 
-export default class LogsRouter {
-  public static connect(api: any) {
-    api.route(FULL_PATH).get(LogsHandler.get);
-    api.route(FULL_PATH).post(LogsHandler.post);
-  }
-}
+LogsRouter.get('/', LogsHandler.get);
+LogsRouter.post('/', LogsHandler.post);
+
+export default LogsRouter;

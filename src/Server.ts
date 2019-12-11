@@ -3,7 +3,7 @@ import * as cookieParser from "cookie-parser";
 import * as bodyParser from 'body-parser';
 import * as morgan from "morgan";
 import * as Dontenv from 'dotenv';
-import Router from './api/router';
+import Router from './api';
 import MongooseService from './api/datasources/Mongoose.Service';
 
 export default class Server {
@@ -14,7 +14,7 @@ export default class Server {
     const API = Server.startExpressApi();
 
     MongooseService.connect();
-    Router.connect(API);
+    API.use('/api', Router);
     
     API.listen(PORT);
     console.info('RESTful API server started on: ' + PORT);
