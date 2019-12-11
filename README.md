@@ -1,8 +1,7 @@
 # Node/Express.js/TypeScript + mongoDB
 
 <img height="100px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png">
-<img height="100px" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png">
-<img height="100px" src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png">
+ <img height="100px" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png"> <img height="100px" src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png">
 <hr>
 
 ## Getting started
