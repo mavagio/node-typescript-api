@@ -6,9 +6,8 @@
   "scripts": {
     "start": "tsc && set DEBUG=express:* && node build/Main.js",
     "start:prod": "tsc && NODE_ENV=production node build/Main.js",
-    "dev": "nodemon --exec npm start",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "start:dev": "nodemon --exec npm start",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "author": "Martin Avagyan",
   "license": "ISC",
