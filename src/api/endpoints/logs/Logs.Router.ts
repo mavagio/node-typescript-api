@@ -1,7 +1,7 @@
 import {API_PATH} from '../../config';
 import LogsHandler from './Logs.Handler';
 
-const PATH = 'Logs'
+const PATH = 'logs'
 const FULL_PATH =`/${API_PATH}/${PATH}/`;
 
 export default class LogsRouter {
