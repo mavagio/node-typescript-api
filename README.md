@@ -1,4 +1,4 @@
-# Node/Express.js/TypeScript + mongoDB
+# Node/Express.js/TypeScript/mongoDB
 
 <img height="100px" alt="nodejs" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg">
 <img height="100px" alt="TypeScritpt" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png"> 
